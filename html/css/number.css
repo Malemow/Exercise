@@ -1,0 +1,17 @@
+
+a:visited ,  a:link{
+  color: #f2f2f2 ;
+
+}
+a:hover{
+  color: red;
+
+}
+a{
+  margin : 10px;
+  padding : auto;
+}
+table{
+  margin  : 20px;
+  padding : auto;
+}

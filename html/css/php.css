@@ -1,0 +1,16 @@
+body {
+  padding: 50px 0;
+  background-color: #4a382f;
+  text-align : center;
+  font-size: 17px;
+  margin:0 auto;
+  width: 800px;
+}
+
+.white {
+color : white;
+}
+
+h1{
+color: white;
+}
