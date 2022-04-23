@@ -9,6 +9,11 @@
     //將字串符改為UTF-8
     PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8mb4'];
 
+  define('DB_SERVER', 'localhost');
+  define('DB_USERNAME', 'lemow');
+  define('DB_PASSWORD', '0000');
+  define('DB_NAME', 'exercise_2');
+  
   $host     = 'localhost';
   $port     = '3306';
   $user     = 'lemow';
