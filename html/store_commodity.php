@@ -10,11 +10,11 @@
         <script type="text/javascript" src="./js/check.js"></script>
     </head>
     <body>
-        <form action = "./store_commodity.php" method = "POST"   class = "bd_color">
+        <form action = "././store_login.php" method = "POST"   class = "bd_color">
             <h1>商品 登錄</h1>
-            <input type = "text"   name = "store_name"  placeholder = "商品名稱" oninput = "ValidateValue(this)"/>
+            <input type = "text"   name = "commodity_name"  placeholder = "商品名稱" oninput = "ValidateValue(this)"/>
             <br/>
-            <input type = "text"   name = "store_price" placeholder = "商品價格"      oninput = "ValidateValue(this)"/>
+            <input type = "text"   name = "commodity_price" placeholder = "商品價格"      oninput = "ValidateValue(this)"/>
             <br/>
             <input type = "submit" name = "submit"   value = "登錄" >
             <br/>
