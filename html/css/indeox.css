@@ -1,0 +1,98 @@
+
+::placeholder { /* CSS 3 標準 */
+
+    color: #74889a;
+}
+
+::-webkit-input-placeholder { /* Chrome, Safari */
+
+    color: #74889a;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+
+    color: #74889a;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+
+    color: #74889a;
+    opacity: 1;
+}
+
+
+.ok {
+    color: white;
+}
+
+body {
+    display: flex;
+    padding: 150px;
+    font-family      : PingFang;
+    background-color : #051c21;
+    align-content    : center;
+    justify-content  : center;
+
+}
+
+.bd_color{
+    width    : 400px;
+    padding  : 80px;
+    margin   : 50px;
+    background-color : #61718e;
+    border-radius    : 20px ;
+    box-shadow       : 0 0 100px #021935;
+
+}
+
+.hyperlink{
+    display   : flex;
+    font-size : 15px;
+    text-align: center;
+    margin    : auto;
+    justify-content : center;
+    
+}
+
+.bd_color input{
+    font-size     : 17px;
+    height        : 30px;
+    width         : 200px;
+    text-align    : center;
+    display       : block;
+    margin        : auto;
+    background    : #f7f7f7;
+    color         : #f8f9fa;
+    border-radius : 20px; 
+
+}
+
+.bd_color input[type="submit"]{
+    cursor     : pointer;
+    background : none;
+}
+
+.bd_color input[type="text"] , .bd_color input[type="password"]{
+    border : 2px solid #051c21 ;
+    color  : #021935;
+}
+
+.bd_color h1{
+    font-size       : 50px;
+    text-align      : center;
+    display         : flex;
+    margin          : auto;
+    color           : #f8f9fa;
+    justify-content : center;
+    padding-bottom  : 30px ;
+    text-shadow     : 0px 0px 10px #051c21;
+}
+
+
+a:visited ,  a:link{
+    color: #f7f7f7 ;
+  
+  }
+  a:hover{
+    color: #bcbcbd;
+  }
