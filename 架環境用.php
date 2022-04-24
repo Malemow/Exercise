@@ -14,7 +14,7 @@ if(!isset($_POST['submit'])){
     <input type="text" name="table" placeholder = "請輸入表單"      value="table" />
     <br/>
     <br/>
-    <input ty   pe="text" name="data_1" placeholder = "請輸入資料欄位1" value="name"  />
+    <input type="text" name="data_1" placeholder = "請輸入資料欄位1" value="name"  />
     <input type="text" name="data_2" placeholder = "請輸入資料欄位2" value="price" />
     <br/>
     <br/>
