@@ -1,0 +1,66 @@
+  /*820x1180  , 390x844*/
+@media only screen and (max-width: 600px){
+    .round{
+        background-color: green;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .round{
+        background-color: blue;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .round{
+        background-color: red;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+tr{
+    border: 0.5px solid black;
+}
+td{
+    border: 0.5px solid black;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+tr:first-child td:first-child{
+    border-top-left-radius: 10px;
+}
+tr:first-child td:last-child{
+    border-top-right-radius: 10px;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+tr:nth-child(even){
+    background-color : lemonchiffon ; 
+}
+tr:nth-child(odd){
+    background-color : lightblue; 
+}
+tr:nth-child(1){
+    background-color : lightsalmon;
+}
+tr:hover{
+    background-color: aqua;
+}

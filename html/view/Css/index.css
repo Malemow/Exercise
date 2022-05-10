@@ -1,0 +1,36 @@
+a {
+    font-size: 24px;
+}
+
+a:link,
+a:visited {
+    color: rgb(56, 68, 124);
+}
+
+.index {
+    text-align: center;
+    align-content: center;
+}
+
+body {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left {
+    display: inline-block;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 700px;
+}
+
+input {
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+}
